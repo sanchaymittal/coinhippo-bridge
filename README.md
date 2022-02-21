@@ -3,8 +3,7 @@
 CoinHippo Bridge is ...
 
 <br>
-
-
+<img width="1433" alt="coinhippo_bridge" src="https://user-images.githubusercontent.com/13881651/155010741-897a69f3-4c19-4dd4-a071-b096483a4764.png">
 
 ## URLs
 ### Mainnet
