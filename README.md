@@ -3,7 +3,7 @@
 CoinHippo Bridge is a simplified bridge app built based on [Connext's nxtp protocol](https://github.com/connext/nxtp) and subgraph technology. It is designed and built as the starter framework to be easily forked and used as the foundation of cross-chain bridge applications for any project.
 
 <br>
-<img width="1433" alt="coinhippo_bridge" src="https://user-images.githubusercontent.com/13881651/155010741-897a69f3-4c19-4dd4-a071-b096483a4764.png">
+<img width="1434" alt="coinhippo_bridge" src="https://user-images.githubusercontent.com/13881651/155118823-bde40bb5-e3e3-4876-8397-701424aeb47a.png">
 
 ## URLs
 ### Mainnet
