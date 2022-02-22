@@ -80,7 +80,7 @@ CoinHippo Bridge is a simplified bridge app built based on [Connext's nxtp proto
       - `NEXT_PUBLIC_INFURA_ID`
         - using in Connect Wallet (`WalletConnectProvider` and `WalletLink`)
       - `NEXT_PUBLIC_PORTIS_ID` (optional)
-        - set when you want your app to support [Portis](portis.io) wallet
+        - set when you want your app to support [Portis](https://portis.io) wallet
 
     - Contact information
       - `NEXT_PUBLIC_TWITTER_USERNAME`, `NEXT_PUBLIC_TELEGRAM_USERNAME`, `NEXT_PUBLIC_DISCORD_URL`, `NEXT_PUBLIC_GITHUB_URL` and `NEXT_PUBLIC_ENS_NAME`
