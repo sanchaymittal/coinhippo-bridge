@@ -67,20 +67,20 @@ CoinHippo Bridge is a simplified bridge app built based on [Connext's nxtp proto
       - `NEXT_PUBLIC_NETWORK`
         - `mainnet` or `testnet`
       - `NEXT_PUBLIC_USE_CONFIG`
-        - `connext` for using same configuration as ([xPollinate](https://xpollinate.io)), the main Connext's app.
-        - otherwise use local config in [/config](/config)
+        - `connext` for using same configuration as [xPollinate](https://xpollinate.io), the main Connext's app.
+        - otherwise, use local config in [/config](/config)
       - `NEXT_PUBLIC_ANNOUNCEMENT` (optional)
-        - when using local config, announcement message on app will show the message from this parameter
+        - If you're using the local config, the announcement message displayed on the app will retrieve the message from this parameter.
       - `NEXT_PUBLIC_SITE_URL`
         - the URL that your bridge is deployed on
       - `NEXT_PUBLIC_FAQ_URL` (optional)
-        - support or FAQ document of the bridge (`default` to Connext support document)
+        - the support or FAQ document URL of the bridge (`default` to Connext support document)
 
     - External service ID
       - `NEXT_PUBLIC_INFURA_ID`
         - using in Connect Wallet (`WalletConnectProvider` and `WalletLink`)
       - `NEXT_PUBLIC_PORTIS_ID` (optional)
-        - set when you want your app to support [Portis](https://portis.io) wallet
+        - set this parameter when you want your app to support [Portis](https://portis.io) wallet
 
     - Contact information
       - `NEXT_PUBLIC_TWITTER_USERNAME`, `NEXT_PUBLIC_TELEGRAM_USERNAME`, `NEXT_PUBLIC_DISCORD_URL`, `NEXT_PUBLIC_GITHUB_URL` and `NEXT_PUBLIC_ENS_NAME`
