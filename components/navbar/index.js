@@ -144,7 +144,7 @@ export default function Navbar() {
       }
     }
 
-    setTimeout(() => getData(), 15 * 1000)
+    setTimeout(() => getData(), 3 * 1000)
 
     const interval = setInterval(() => getData(), 3 * 60 * 1000)
     return () => {
