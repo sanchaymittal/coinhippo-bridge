@@ -19,6 +19,7 @@ CoinHippo Bridge is ...
 <br>
 
 ## Data provider / APIs
+- [Connext Subgraph](https://github.com/connext/nxtp/tree/main/packages/subgraph)
 - [Connextscan API](https://github.com/CoinHippo-Labs/connext-network-explorer-lambda)
 
 ## Technology stacks
