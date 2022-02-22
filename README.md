@@ -93,7 +93,7 @@ CoinHippo Bridge is a simplified bridge app built based on [Connext's nxtp proto
     - for dark theme: [here](/public/logos/logo_white.png)
   - [icons](/public/icons)
   - [favicon](/public/favicon.ico)
-  - [App logo](/public/favicon.png)(show on MetaMask)
+  - [App logo](/public/favicon.png) (show on MetaMask)
   - [OG_IMAGE](/public/images/ogimage.png)
 
 ### set default theme (optional)
