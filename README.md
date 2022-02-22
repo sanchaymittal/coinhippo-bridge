@@ -39,5 +39,12 @@ CoinHippo Bridge is ...
 
 - Run on [localhost:3000](http://localhost:3000)
   ```
+  # mainnet
   npm run dev
+
+  # staging
+  npm run dev-dev
+
+  # testnet
+  npm run dev-testnet
   ```
