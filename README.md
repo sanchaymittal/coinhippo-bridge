@@ -67,7 +67,7 @@ CoinHippo Bridge is a simplified bridge app built based on [Connext's nxtp proto
       - `NEXT_PUBLIC_NETWORK`
         - `mainnet` or `testnet`
       - `NEXT_PUBLIC_USE_CONFIG`
-        - `connext` for using same configuration as [xPollinate](https://xpollinate.io), the main Connext's app.
+        - `connext` for using same configuration as [Connext Bridge](https://bridge.connext.network), the main Connext's app.
         - otherwise, use local config in [/config](/config)
       - `NEXT_PUBLIC_ANNOUNCEMENT` (optional)
         - If you're using the local config, the announcement message displayed on the app will retrieve the message from this parameter.
