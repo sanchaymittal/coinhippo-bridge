@@ -1087,7 +1087,7 @@ export default function CrosschainBridge() {
                     href={`${process.env.NEXT_PUBLIC_EXPLORER_URL}/${toChain.id}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-gray-50 hover:bg-gray-100 dark:bg-black dark:hover:bg-gray-900 cursor-pointer rounded-xl flex items-center text-blue-600 dark:text-white py-1.5 px-2.5"
+                    className="min-w-max bg-gray-50 hover:bg-gray-100 dark:bg-black dark:hover:bg-gray-900 cursor-pointer rounded-xl flex items-center text-blue-600 dark:text-white py-1.5 px-2.5"
                   >
                     <Img
                       src={toChain.image}
