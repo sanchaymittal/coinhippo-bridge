@@ -175,7 +175,7 @@ export default function CrosschainBridge() {
       const fromChain = chains_data?.find(c => c.id === fromChainId)
       const toChain = chains_data?.find(c => c.id === toChainId)
       const assetId = paths[0] !== 'from' ? paths[0] : null
-      const asset = assets?.find(a => a.id === assetId || a.symbol?.toLowerCase() === assetId)
+      const asset = assets_data?.find(a => a.id === assetId || a.symbol?.toLowerCase() === assetId)
       const fromContract = asset?.contracts?.find(c => c?.chain_id === fromChain?.chain_id)
       const toContract = asset?.contracts?.find(c => c?.chain_id === toChain?.chain_id)
 
@@ -187,12 +187,9 @@ export default function CrosschainBridge() {
         swapConfig.toChainId = toChain.chain_id
         changed = true
       }
-      if (fromContract) {
-        swapConfig.fromAssetId = fromContract.contract_address
-        changed = true
-      }
-      if (toContract) {
-        swapConfig.toAssetId = toContract.contract_address
+      if (asset) {
+        swapConfig.fromAssetId = asset.id
+        swapConfig.toAssetId = asset.id
         changed = true
       }
     }
@@ -306,7 +303,7 @@ export default function CrosschainBridge() {
           }
         }
 
-        router.push(`/${fromChain && toChain ? `${fromAsset || toAsset ? `${(fromAsset || toAsset).symbol}-` : ''}from-${fromChain.id}-to-${toChain.id}` : ''}?${new URLSearchParams(_query).toString()}`, undefined, { shallow: true })
+        router.push(`/${fromChain && toChain ? `${fromAsset || toAsset ? `${(fromAsset || toAsset).symbol}-` : ''}from-${fromChain.id}-to-${toChain.id}` : ''}${Object.keys(_query).length > 0 ? `?${new URLSearchParams(_query).toString()}` : ''}`, undefined, { shallow: true })
       }
     }
 
