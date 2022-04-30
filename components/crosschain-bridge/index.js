@@ -975,7 +975,7 @@ export default function CrosschainBridge() {
 
   const minAmount = estimatedFees || fees?.prepareGasFee || min_amount
   const maxBalanceAmount = fromBalanceAmount > minAmount ? fromBalanceAmount : 0
-  const maxTransfer = maxTransfers?.find(t => t?.chain?.chain_id === swapConfig.toChainId && t?.contract_address === toContract?.contract_address)
+  let maxTransfer = maxTransfers?.find(t => t?.chain?.chain_id === swapConfig.toChainId && t?.contract_address === toContract?.contract_address)
   if (maxTransfer?.assets_from_chains?.[swapConfig.fromChainId]) {
     maxTransfer.amount = maxTransfer.assets_from_chains[swapConfig.fromChainId].amount
     maxTransfer.amount_value = maxTransfer.assets_from_chains[swapConfig.fromChainId].amount_value
